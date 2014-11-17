@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: auto;
+	max-width: 100%;
+}
+header {
+	background: #fff;
+	opacity: 0.4;
+}
+
+section {
+	padding: 0;
+	margin: 0;
+}
+
+header img {
+	position: absolute;
+	top: 1em;
+	left: 5em;
+	width: 190px;
+	height: 100px;
+}
+
+header nav ul {
+	list-style: none;
+	margin-right: 5% ;
+
+}
+
+li {
+	margin-right: 2%;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+a:visited {
+	color: inherit;
+}
+
+header nav ul {
+	display: -webkit-flex;
+	-webkit-justify-content: flex-end;
+}
+
+.button {
+	color: white;
+	background-color: green;
+	width: 100px;
+	padding: 10px 15px;
+	text-align: center;
+}
+
+#section-one {
+	background: url('../img/top_bg.jpg') no-repeat center center;
+	background-size: cover;
+}
+
+#section-content li:last-child {
+	margin-top: 10px;
+	margin-right: 0px;
+	padding: 9px 17px;
+}
+
+#section-one ul {
+	margin-top: 45px;
+	margin-top: -10px;
+}
+
+#section-one h1 {
+	margin-top: 45px;
+}
+
+#section-content {
+	padding: 65px 0;
+	margin-left: 150px;
+}
+
+#section-content li {
+	padding: 7px 0;
+	margin-top: -.5em; 
+}
+
+#sub-section {
+	background: #000000;
+	opacity:0.7;
+	color: #ffffff;
+	padding-top: 5px;
+	/*margin-top: 10px;*/
+	text-align: center;
+}
+
+#function {
+	margin: 0 20px;
+	margin-top: -18px;
+	padding-bottom: 20px;
+}
+
+span {
+	font-size: 2.5em;
+	position: relative;
+	bottom: 1.7px;
+}
+
+
+#sub-section p {
+	margin-bottom: -10px;
+}
+
+#hire {
+	font-size: 1.5em;
+	font-family: Verdana;
+	font-weight: 100;
+	padding: 0 20px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.section-two ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+}	
+
+.section-two {
+	text-align: center;
+	/*margin-top: 40px;*/
+}
+
+#section-two-a {
+	opacity: 0.6;
+	width: 80%;
+	margin: 0px auto;
+	background: rgba(211,211,211, .2);
+	background-size: 100%;
+	padding: 0 133px;
+	/*margin: -19px 0 40px 0;*/
+}
+
+#section-two-a h1{
+	font-weight: normal;
+	padding: 25px 0;
+}
+
+
+#second-button {
+	/*position: relative;
+	left: 620px;*/
+	margin: 0 auto;
+}
+
+#section-two-b {
+	background: url('../img/blurred_bg.jpg') no-repeat center center;
+	background-size: cover; 
+	padding: 20px 0;
+}
+
+#section-three ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+}	
+
+#section-three h1 {
+	text-align: center;
+	font-size: 1.6em;
+	opacity: 0.6;
+	font-weight: normal;
+}
+
+#section-three ul li {
+	border: 1px solid rgba(128,128,128, .3);
+	padding: 15px 61px;
+	margin-bottom: 30px;
+
+}
+
+#section-three ul li img {
+	width: 180px;
+	height: 156px;
+
+}
+
+
+footer {
+	background-color: rgba(0,0,0, .9);
+	font-size: .7em;
+	padding: 10px;
+	border-top: 3px solid green;
+	color: #fff;
+}
+
+footer ul {
+	display: -webkit-flex;
+	-webkit-justify-content: flex-begin;
+	color: #fff;
+}
+
+footer ul li {
+	list-style: none;
+	color: #fff;
+
+}

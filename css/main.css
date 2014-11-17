@@ -1,0 +1,117 @@
+body {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arimo', sans-serif;
+}
+
+#wrapper {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+	/*color: inherit;*/
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	height: 50px;
+	background: red;
+	/*background: transparent;*/
+}
+
+nav {
+	float: right;
+	margin: 12.5px 70px 0 0;
+}
+
+ nav li {
+ 	display: inline-block; 
+ 	margin-left: 1.5em;
+ }
+
+#section-one {
+	position: relative;
+	height: 500px;
+	border: 5px solid green;
+	background: url('../img/top_bg.jpg') no-repeat center -90px;
+	background-size: cover;
+  	-webkit-background-size: cover; /************for other browsers****************/
+  	-moz-background-size: cover;	/************for other browsers****************/
+  	-o-background-size: cover;		/************for other browsers****************/
+  	
+}
+
+#image {
+	position: relative;
+	float: left;
+	z-index: 50;
+	top: 2%;
+	left:8%;
+}
+
+#sub-section {
+	border: 1px solid red;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0, .85);
+	/*opacity: .7;*/
+	font-size: 1.5em;
+}
+
+#section-two, #section-three, #section-four {
+	text-align: center;
+	background-color: rgba(96, 96, 103, 0.02);
+	border: 3px solid yellow;
+}
+
+#section-two p, h1  {
+	border: 1px solid blue;
+	color: rgba(96, 96, 103, 0.4);
+}
+
+#section-two ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	border: 2px solid green;
+}
+
+#section-two h1, #section-three h1, #section-four h1 {
+	font-weight: 400;
+}
+
+#section-three {
+	background: url('../img/blurred_bg.jpg') no-repeat center -5.625em;
+	background-size: cover;
+	padding: 70px 0;
+}
+
+#section-three h1{
+	color: black;
+}
+
+#section-four ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	border: 2px solid pink;
+}
+
+/*#section-four ul li {
+	border: 1px solid rgba(128,128,128, .3);
+	padding: 15px 50px;
+	margin-bottom: 40px;
+
+}*/
+
+/*#section-four ul li img {
+	width: 11.2%%;
+	height: 156px;
+}*/
