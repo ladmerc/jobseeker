@@ -1,0 +1,29 @@
+@media only screen and (min-width : 320px) and (max-width: 480px) {
+	nav {
+	float: right;
+	margin: 12.5px 0 0 0;
+}
+ nav li {
+ 	text-align: center;
+ 	
+ }
+#post{
+	position: relative;
+	float: left;
+	top: -16%;
+	left: 0%;
+    font-size: 14px;
+}
+#section-one {
+	position: relative;
+	height: 31.25em;
+	background: url('../img/top_bg.jpg') no-repeat -490px -30px;
+	background-size: cover;
+  	-webkit-background-size: cover; /************for other browsers****************/
+  	-moz-background-size: cover;	/************for other browsers****************/
+  	-o-background-size: cover;		/************for other browsers****************/
+  	
+}
+
+}
+
