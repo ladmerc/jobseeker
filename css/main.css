@@ -1,3 +1,7 @@
+/************************************************
+		GENERAL
+*************************************************/
+
 body {
 	width: auto;
 	height: auto;
@@ -21,6 +25,26 @@ img {
 	max-width: 100%;
 }
 
+
+#section-two, #section-three, #section-four {
+	text-align: center;
+	background-color: rgba(96, 96, 103, 0.03);
+}
+
+/**********Styling the buttons*****************/
+
+.button {
+	background-color: green;
+	padding: 5px 25px;
+	text-align: center;
+	width: 100px;
+	padding: 8px 20px 8px 20px;
+	opacity: .8;
+}
+/************************************************
+		HEADER
+*************************************************/
+
 header {
 	height: 50px;
 	background-color: rgba(96, 96, 103, 0.03);
@@ -41,6 +65,10 @@ nav {
  	margin-left: 1.5em;
  }
 
+/************************************************
+		SECTION ONE BEGINS
+*************************************************/
+
 #section-one {
 	position: relative;
 	height: 31.25em;
@@ -51,6 +79,8 @@ nav {
   	-o-background-size: cover;		/************for other browsers****************/
   	
 }
+
+/************LOGO********************/
 
 #image {
 	position: relative;
@@ -77,14 +107,7 @@ nav {
 	color: rgba(0,0,0, .8);
 }
 
-.button {
-	background-color: green;
-	padding: 5px 25px;
-	text-align: center;
-	width: 100px;
-	padding: 8px 20px 8px 20px;
-	opacity: .8;
-}
+/*********THE BLACK SMALL SECTION***************/
 
 #sub-section {
 	position: absolute;
@@ -119,10 +142,13 @@ span {
 	bottom: 1.7px;
 }
 
-#section-two, #section-three, #section-four {
-	text-align: center;
-	background-color: rgba(96, 96, 103, 0.03);
-}
+/************************************************
+		SECTION ONE ENDS
+*************************************************/
+
+/************************************************
+		SECTION TWO BEGINS
+*************************************************/
 
 #section-two li{
 	margin: 0 48px 0 45px;
@@ -146,6 +172,11 @@ span {
 	margin-top: -14px;
 }
 
+/************************************************
+		SECTION THREE BEGINS
+*************************************************/
+
+
 #section-three {
 	background: url('../img/blurred_bg.jpg') no-repeat center -5.625em;
 	background-size: cover;
@@ -166,10 +197,20 @@ span {
 
 #second-button {
 	text-align: center;
-	margin-left: 599px;
+	margin-left: 37.4375em;
 	margin-top: 50px;
 	padding: 8px 20px 8px 20px;
 }
+
+/************************************************
+		SECTION THREE ENDS
+*************************************************/
+
+
+/************************************************
+		SECTION FOUR BEGINS
+*************************************************/
+
 
 #section-four {
 	padding: 1.25em 0 1.25em 0;
@@ -191,6 +232,15 @@ span {
 	padding: 1.875em 3.9375em 1.875em 3.9375em;
 	border: 1px solid rgba(96, 96, 103, .1);
 }
+
+/************************************************
+		SECTION FOUR ENDS
+*************************************************/
+
+/************************************************
+		FOOTER BEGINS
+*************************************************/
+
 
 footer li {
 	display: inline;
