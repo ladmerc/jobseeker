@@ -4,6 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Arimo', sans-serif;
+	background-color: rgba(96, 96, 103, 0.07);
 }
 
 #wrapper {
@@ -76,10 +77,13 @@ nav {
 	color: rgba(0,0,0, .8);
 }
 
-#button {
+.button {
 	background-color: green;
 	padding: 5px 0;
 	text-align: center;
+	width: 100px;
+	padding: 8px 0 8px 0;
+	opacity: .8;
 }
 
 #sub-section {
@@ -120,6 +124,10 @@ span {
 	background-color: rgba(96, 96, 103, 0.03);
 }
 
+#section-two li{
+	margin: 0 48px 0 45px;
+}
+
 #section-two p, h1  {
 	color: rgba(96, 96, 103, 0.3);
 }
@@ -141,15 +149,30 @@ span {
 #section-three {
 	background: url('../img/blurred_bg.jpg') no-repeat center -5.625em;
 	background-size: cover;
-	padding: 70px 0;
+	padding: 40px 0;
+}
+
+#section-three ul {
+	margin-top: 50px;
+}
+
+#section-three li {
+	margin: 7px 0 7px 0;
 }
 
 #section-three h1{
 	color: black;
 }
 
+#second-button {
+	text-align: center;
+	margin-left: 599px;
+	margin-top: 50px;
+}
+
 #section-four {
 	padding: 1.25em 0 1.25em 0;
+	background-color: white;
 }
 
 #section-four img {
@@ -165,14 +188,16 @@ span {
 	display: inline-block;
 	margin: 0 0.6875em 0 0.6875em;
 	padding: 1.875em 3.9375em 1.875em 3.9375em;
+	border: 1px solid rgba(96, 96, 103, .1);
 }
 
 footer li {
 	display: inline;
-	background: red;
+	font-size: .5em;
 }
 
 footer {
-	background: red;
-	border: 3px solid green;
+	background: #000;
+	border: 1px solid green;
+	opacity: .7
 }
