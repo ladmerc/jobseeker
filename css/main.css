@@ -1,0 +1,178 @@
+body {
+	width: auto;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-family: 'Arimo', sans-serif;
+}
+
+#wrapper {
+	position: relative;
+	max-width: 1366px; /*****For Resolutions only up to 1366px***********************/
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	max-width: 100%;
+}
+
+header {
+	height: 50px;
+	background-color: rgba(96, 96, 103, 0.03);
+}
+
+header a {
+	color: #000;
+	margin-top: -10px;
+}
+
+nav {
+	float: right;
+	margin: 12.5px 70px 0 0;
+}
+
+ nav li {
+ 	display: inline-block; 
+ 	margin-left: 1.5em;
+ }
+
+#section-one {
+	position: relative;
+	height: 31.25em;
+	background: url('../img/top_bg.jpg') no-repeat center -90px;
+	background-size: cover;
+  	-webkit-background-size: cover; /************for other browsers****************/
+  	-moz-background-size: cover;	/************for other browsers****************/
+  	-o-background-size: cover;		/************for other browsers****************/
+  	
+}
+
+#image {
+	position: relative;
+	float: left;
+	z-index: 50;
+	top: 2%;
+	left:8%;
+}
+
+#post {
+	position: relative;
+	float: left;
+	top: 30%;
+	left: 0%;
+} 
+
+#post h1 {
+	margin-left: 39px;
+	color: rgba(0,0,0,.9);
+}
+
+#post li {
+	margin: 5px 0 5px 0;
+	color: rgba(0,0,0, .8);
+}
+
+#button {
+	background-color: green;
+	padding: 5px 0;
+	text-align: center;
+}
+
+#sub-section {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0, .85);
+}
+
+#sub-section p {
+	font-size: 2.2em;
+	font-weight: lighter;
+	margin-top: -0.0655em;
+}
+
+#second-line ul li {
+	display: inline;
+	margin: 0 6px 0 6px;
+}
+
+#second-line {
+	font-size: .9em;
+	margin-top: -1.5em;
+	margin: -1.5em 20px 0 20px;
+}
+
+span {
+	font-size: 1.7em;
+	position: relative;
+	bottom: 1.7px;
+}
+
+#section-two, #section-three, #section-four {
+	text-align: center;
+	background-color: rgba(96, 96, 103, 0.03);
+}
+
+#section-two p, h1  {
+	color: rgba(96, 96, 103, 0.3);
+}
+
+#section-two ul {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	margin-bottom: 0;
+}
+
+#section-two h1, #section-three h1, #section-four h1 {
+	font-weight: 400;
+}
+
+.paragraph2 {
+	margin-top: -14px;
+}
+
+#section-three {
+	background: url('../img/blurred_bg.jpg') no-repeat center -5.625em;
+	background-size: cover;
+	padding: 70px 0;
+}
+
+#section-three h1{
+	color: black;
+}
+
+#section-four {
+	padding: 1.25em 0 1.25em 0;
+}
+
+#section-four img {
+	width: 6.25em;
+	height: 6.25em;
+}
+
+#section-four ul {
+	margin-left: -7.53em;
+}
+
+#section-four li {
+	display: inline-block;
+	margin: 0 0.6875em 0 0.6875em;
+	padding: 1.875em 3.9375em 1.875em 3.9375em;
+}
+
+footer li {
+	display: inline;
+	background: red;
+}
+
+footer {
+	background: red;
+	border: 3px solid green;
+}
